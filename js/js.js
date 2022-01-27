@@ -341,6 +341,7 @@ function reposicionaAmigo() {
 //Explosão3
 	
 function explosao3(amigoX,amigoY) {
+    somPerdido.play();
     $("#fundoGame").append("<div id='explosao3' class='anima4'></div");
     $("#explosao3").css("top",amigoY);
     $("#explosao3").css("left",amigoX);
